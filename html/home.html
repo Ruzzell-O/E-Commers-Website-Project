@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PlanTiPs</title>
+    <title>PlanTiPs | Home Page</title>
 
    <!-- CSS link -->
    <link href="/css/Style.css" rel="stylesheet" />
@@ -20,7 +20,7 @@
 
 		<!-- Logo & Site Name -->
 		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/PlanTiPs.jpg">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="/img/PlanTiPs.jpg">
 				<div class="tm-header">
 					<div class="row tm-header-inner">
 						
@@ -38,7 +38,7 @@
 								<li class="tm-nav-li"><a href="/html/products.html" class="tm-nav-link ">Products</a></li>
                                 <li class="tm-nav-li"><a href="/html/services.html" class="tm-nav-link">Services</a></li>
 								<li class="tm-nav-li"><a href="/html/about.html" class="tm-nav-link ">About</a></li>
-								<li class="tm-nav-li"><a href="/html/services.html" class="tm-nav-link">Contact</a></li>
+								<li class="tm-nav-li"><a href="/html/contact.html" class="tm-nav-link ">Contact</a></li>
 							</ul>
 						</nav>	
 
@@ -54,18 +54,54 @@
 				<p class="col-12 text-center">Our mission to provide our clients with the upmost vitality of Eco friendly produces and services to ensure customer satisfactory</p>
 			</header>
 
+			    
+				  
+			<!-- Featured Components -->
+			<div class="tm-container-inner tm-features">
+
+				<div class="row">
+			
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<h3>Services</h3>
+							<p class="tm-feature-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis dolorum tempora quam tenetur? Deserunt harum provident sint. Nostrum unde deserunt nobis dignissimos obcaecati saepe.</p>
+							<a href="*" class="tm-btn tm-btn-primary">Read More</a>
+						</div>
+					</div>
+			
+								
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<h3>Products</h3>
+										<p class="tm-feature-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis dolorum tempora quam tenetur? Deserunt harum provident sint. Nostrum unde deserunt nobis dignissimos obcaecati saepe.</p>
+							<a href="*" class="tm-btn tm-btn-success">Read More</a>
+						</div>
+					</div>
+			
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<h3>Contact</h3>
+							<p class="tm-feature-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis dolorum tempora quam tenetur? Deserunt harum provident sint. Nostrum unde deserunt nobis dignissimos obcaecati saepe.</p>
+							<a href="*" class="tm-btn tm-btn-danger">Read More</a>
+						</div>
+					</div>
+			
+				</div>
+			</div>
+			
+
 			<div class="tm-section tm-container-inner">
 				<div class="row">
 					<div class="col-md-6">
 						<figure class="tm-description-figure">
-							<img src="img/img-01.jpg" alt="Image" class="img-fluid" />
+							<img src="/img/img-01.jpg" alt="Image" class="img-fluid" />
 						</figure>
 					</div>
 					<div class="col-md-6">
 						<div class="tm-description-box"> 
 							<h4 class="tm-gallery-title">Service Description</h4>
 							<p class="tm-mb-45">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil reprehenderit facilis consequatur eum esse iste eaque odio cum. Id deserunt dolorum, vel quas laudantium sequi omnis non? Sequi consectetur cum nesciunt vero nisi nobis distinctio, tenetur repudiandae molestias animi in necessitatibus? Necessitatibus numquam nesciunt molestiae facilis expedita ipsam ipsa.</p>
-							<a href="/services.html" class="tm-btn tm-btn-default tm-right">Read More</a>
+							<a href="/html/services.html" class="tm-btn tm-btn-default tm-right">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -82,8 +118,19 @@
 			
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/parallax.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/parallax.min.js"></script>
+
+	<script type="text/javascript">
+		var counter = 1;
+		setInterval(function(){
+		  document.getElementById('radio' + counter).checked = true;
+		  counter++;
+		  if(counter > 4){
+			counter = 1;
+		  }
+		}, 5000);
+		</script>
 
 </body>
 </html>
